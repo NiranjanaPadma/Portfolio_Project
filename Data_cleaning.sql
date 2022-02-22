@@ -93,7 +93,7 @@ END
 		where rnum>1
 		order by PropertyAddress
 		
-		delete from Nir_PortfolioProject.dbo.Nashville_Housing_Data_for_Data_Cleaning
+		delete from ownersCTE
 		where 
 		rnum >1
 
